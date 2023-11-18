@@ -62,6 +62,11 @@ Este módulo é o primeiro de uma série para estudo dos algoritmos supervisiona
 - [`seaborn`](https://seaborn.pydata.org/)
 - [`scipy`](https://scipy.org/)
 - [`scikit-learn`](https://scikit-learn.org/stable/)
+- [`statsmodels`](https://www.statsmodels.org/stable/index.html)
+- [`fastapi`](https://fastapi.tiangolo.com/)
+- [`uvicorn`](https://www.uvicorn.org/)
+- [`pydantic`](https://docs.pydantic.dev/latest/)
+- [`pingouin`](https://pingouin-stats.org/build/html/index.html)
 
 ## Como clonar o projeto?
 
