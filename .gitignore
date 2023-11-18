@@ -1,0 +1,46 @@
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+# Pipfile.lock
+
+# Ignore virtual environment files
+/.venv
+/.python-version
+.pyenv/
+.python-version
+
+# Ignore Python specific and byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+*.egg
+dist/
+build/
+.pytest_cache/
+.pyre/
+
+# Ignore user-specific Jupyter settings and runtime files
+.ipynb_checkpoints/
+.jupyter/
+
+# Ignore miscellaneous files and directories
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.tmp
+*.swp
+logs/
+.cache/
+
+# Ignore editor and IDE-specific files
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
