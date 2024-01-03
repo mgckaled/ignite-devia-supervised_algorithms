@@ -15,6 +15,7 @@ pydantic = "*"
 pingouin = "*"
 seaborn = "*"
 ipykernel = "*"
+numpy = "*"
 
 [dev-packages]
 

@@ -34,15 +34,19 @@
 
 Repositório que reuni os módulos 7, 8 e 9 da trilha Desenvolvimento IA 2023, desenvolvido pela Rocketseat Education.
 
+> Acessar [**anotações de aulas**](/.github/docs/notes.md)
+
 ### Módulo 7 - Regressão Linear Simples
 
 Este módulo é o primeiro de uma série para estudo dos algoritmos supervisionados, com foco especial na Regressão Linear Simples. Neste segmento do curso, nosso principal objetivo é fornecer uma compreensão aprofundada dos fundamentos dos algoritmos de regressão, essenciais para a construção de projetos eficazes de machine learning voltados para a previsão de valores. Como ponto de partida, mergulharemos no universo da Regressão Linear Simples. Através de um projeto prático, abordaremos cada etapa do processo, desde a Análise Exploratória de Dados (EDA) até a implementação final do modelo em uma API, facilitando sua integração e utilização em diversas aplicações. Este módulo é projetado para guiá-los através dos conceitos e práticas essenciais, preparando-os para aplicar essas habilidades em cenários reais de machine learning.
 
 ### Módulo 8 - Regressão Linear Múltipla
 
+Algoritmo Supervisionado com Regressão Linear Múltipla. Nosso objetivo é explorar interações e influências de variáveis, iniciando com EDA, seguido da construção do modelo, até finalizar com a implementação de uma Interface de Usuário (UI)
+
 ### Módulo 9 - Regressão Polinomial
 
-> Acessar [**anotações de aulas**](/.github/docs/notes.md).
+Módulo dedicado a polinômios e regressão polinomial. Partimos da EDA à implementação prática em um aplicativo com API e desenvolvimento de interface. Damos ênfase em validação cruzada para garantir precisão e ao controle de sobreajuste.
 
 ## Tecnologias
 
