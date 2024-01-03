@@ -15,7 +15,7 @@ class request_body(BaseModel):
 
 
 # Carregar o modelo para realizar o modelo de predição
-modelo_pontuacao = joblib.load("./modelo_regressao.plk")
+modelo_pontuacao = joblib.load("../data/model_lr_simple.plk")
 
 
 @app.post("/predict")
