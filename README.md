@@ -26,7 +26,7 @@
   - [Tecnologias](#tecnologias)
     - [Linguagem de Programação](#linguagem-de-programação)
     - [Gerenciadores de Ambiente Virtual](#gerenciadores-de-ambiente-virtual)
-    - [Principais Bibliotecas (Packages)](#principais-bibliotecas-packages)
+    - [Bibliotecas Instaladas (Packages)](#bibliotecas-instaladas-packages)
   - [Como clonar o projeto?](#como-clonar-o-projeto)
   - [Licença](#licença)
 
@@ -41,17 +41,17 @@ Repositório que reuni os módulos 7, 8 e 9 da trilha Desenvolvimento IA 2023, d
 Este módulo é o primeiro de uma série para estudo dos algoritmos supervisionados, com foco especial na Regressão Linear Simples. Neste segmento do curso, nosso principal objetivo é fornecer uma compreensão aprofundada dos fundamentos dos algoritmos de regressão, essenciais para a construção de projetos eficazes de machine learning voltados para a previsão de valores. Como ponto de partida, mergulharemos no universo da Regressão Linear Simples. Através de um projeto prático, abordaremos cada etapa do processo, desde a Análise Exploratória de Dados (EDA) até a implementação final do modelo em uma API, facilitando sua integração e utilização em diversas aplicações. Este módulo é projetado para guiá-los através dos conceitos e práticas essenciais, preparando-os para aplicar essas habilidades em cenários reais de machine learning.
 
 ```shell
-# rodar servidor com api do modelo de predição - regressão linear 
+# rodar servidor com api do modelo de predição - regressão linear simples
 $ cd api
 
-$ unicorn api_model_lr_simple:app --reload
+$ uvicorn api_model_lr_simple:app --reload
 ```
 
 Acesso ao servidor: `http://127.0.0.1:8000/docs`
 
 ### Módulo 8 - Regressão Linear Múltipla
 
-Este módulo é o segundo de uma série para estudo dos algoritmos supervisionados, com foco especial na Regressão Linear Múltipla. O obejetivo deste é apresentar o conceito de **regressão linear múltipla**, onde também iremos desenvolver um modelo através de um processo completo desde o EDA até a entrega do modelo através de uma UI para uso do usuário final.
+Este módulo é o segundo de uma série para estudo dos algoritmos supervisionados, com foco especial na Regressão Linear Múltipla. O obejetivo deste é apresentar o conceito de **regressão linear múltipla**, onde também iremos desenvolver um modelo através de um processo completo desde o EDA até a entrega do modelo através de uma UI para uso do usuário final. Será desenvolvido um modelo para um laboratório de análises clínicas que realiza testes de colesterol. O objetivo é avaliar se características dos pacientes, como idade, nível de atividade física e peso, podem influenciar nos resultados do exame de colesterol total. Vamos utilizar um algoritmo de regressão linear múltipla para prever o resultado do exame com base nessas características. O processo será semelhante ao que fizemos no módulo anterior de regressão linear simples, incluindo carregar os dados, realizar uma análise exploratória, preparar o dataset, treinar o modelo, validar o modelo e salvar para uso futuro.
 
 ### Módulo 9 - Regressão Polinomial
 
@@ -68,7 +68,7 @@ Módulo dedicado a polinômios e regressão polinomial. Partimos da EDA à imple
 - [`pyenv`](https://github.com/pyenv/pyenv)
 - [`pipenv`](https://pipenv.pypa.io/en/latest/)
 
-### Principais Bibliotecas (Packages)
+### Bibliotecas Instaladas (Packages)
 
 - [`pandas`](https://pandas.pydata.org/)
 - [`numpy`](https://numpy.org/)
