@@ -1,4 +1,5 @@
 <!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD014 -->
 
 # Ignite Trilha Desenvovimento de IA - Algoritmos Supervisionados
 
@@ -90,20 +91,20 @@ Módulo dedicado a polinômios e regressão polinomial. Partimos da EDA à imple
 2. Faça o clone pelo Github:
 
     ```shell
-    git clone https://github.com/mgckaled/ignite-devia-supervised_algorithms.git
+    $ git clone https://github.com/mgckaled/ignite-devia-supervised_algorithms.git
     ```
 
 3. Acesse o diretório:
 
     ```shell
-    ignite-devia-supervised_algorithms
+    $ cd ignite-devia-supervised_algorithms
     ```
 
 4. Instale as dependências e ative o ambiente virtual
 
     ```shell
-    pipenv install
-    pipenv shell
+    $ pipenv install
+    $ pipenv shell
     ```
 
 ## Licença
