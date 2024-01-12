@@ -16,6 +16,7 @@ pingouin = "*"
 seaborn = "*"
 ipykernel = "*"
 numpy = "*"
+gradio = "*"
 
 [dev-packages]
 
