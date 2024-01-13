@@ -3,6 +3,10 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[scripts]
+lintpy = "pylint ./**/*.py"
+lintnb = "nbqa pylint . --ignore=E501"
+
 [packages]
 scikit-learn = "*"
 scipy = "*"
@@ -19,6 +23,9 @@ numpy = "*"
 gradio = "*"
 
 [dev-packages]
+pylint = "*"
+nbqa = "*"
+flake8 = "*"
 
 [requires]
 python_version = "3.11"
