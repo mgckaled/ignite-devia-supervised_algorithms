@@ -58,7 +58,7 @@ Este módulo é o segundo de uma série para estudo dos algoritmos supervisionad
 
 ### Módulo 9 - Regressão Polinomial
 
-Módulo dedicado a polinômios e regressão polinomial. Partimos da EDA à implementação prática em um aplicativo com API e desenvolvimento de interface. Damos ênfase em validação cruzada para garantir precisão e ao controle de sobreajuste.
+Este módulo é o terceiro de uma série para estudo dos algoritmos supervisionados, com foco especial na Regressão Polinomial. O objetivo deste módulo é apresentar o conceito de **polinómios** e **regresão polinomial**, onde também iremos desenvolver um modelo através de processo completo desde o EDA até a entrega do modelo por App com acesso para os usuários finais. Também trabalharemos o conceito de **validação cruzada**, além de definir o melhor modelo através do monitoramento do sobreajuste (*overfitting*).
 
 ## Tecnologias
 
@@ -85,6 +85,8 @@ Módulo dedicado a polinômios e regressão polinomial. Partimos da EDA à imple
 - [`pydantic`](https://docs.pydantic.dev/latest/)
 - [`pingouin`](https://pingouin-stats.org/build/html/index.html)
 - [`gradio`](https://www.gradio.app/)
+- [`pylint`](https://pylint.pycqa.org/en/latest/index.html)
+- [`nbqa`](https://pylint.pycqa.org/en/latest/index.html)
 
 ## Como clonar o projeto?
 
