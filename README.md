@@ -85,6 +85,8 @@ Este módulo é o terceiro de uma série para estudo dos algoritmos supervisiona
 - [`pydantic`](https://docs.pydantic.dev/latest/)
 - [`pingouin`](https://pingouin-stats.org/build/html/index.html)
 - [`gradio`](https://www.gradio.app/)
+- [`streamlit`](https://streamlit.io/)
+- [`requests`](https://requests.readthedocs.io/en/latest/)
 - [`pylint`](https://pylint.pycqa.org/en/latest/index.html)
 - [`nbqa`](https://pylint.pycqa.org/en/latest/index.html)
 

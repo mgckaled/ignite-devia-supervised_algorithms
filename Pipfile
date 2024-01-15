@@ -21,11 +21,12 @@ seaborn = "*"
 ipykernel = "*"
 numpy = "*"
 gradio = "*"
+streamlit = "*"
+requests = "*"
 
 [dev-packages]
 pylint = "*"
 nbqa = "*"
-flake8 = "*"
 
 [requires]
 python_version = "3.11"
