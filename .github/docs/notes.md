@@ -7,9 +7,6 @@
 - [Anotações](#anotações)
   - [Sumário](#sumário)
   - [Conteúdo](#conteúdo)
-    - [Módulo 7 - Regressão Linear Simples](#módulo-7---regressão-linear-simples)
-    - [Módulo 8 - Regressão Linear Múltipla](#módulo-8---regressão-linear-múltipla)
-    - [Módulo 9 - Regressão Polinomial](#módulo-9---regressão-polinomial)
   - [O que é Análise de Regressão?](#o-que-é-análise-de-regressão)
     - [Tipos de Regressão](#tipos-de-regressão)
       - [Linear Simples](#linear-simples)
@@ -23,11 +20,21 @@
 
 ## Conteúdo
 
-### Módulo 7 - [Regressão Linear Simples](./m7.md)
+> Acesse as anotações de aulas de cada módulo
 
-### Módulo 8 - [Regressão Linear Múltipla](./m8.md)
+- Módulo 7 - [Regressão Linear Simples](./m7.md)
 
-### Módulo 9 - [Regressão Polinomial](./m9.md)
+- Módulo 8 - [Regressão Linear Múltipla](./m8.md)
+
+- Módulo 9 - [Regressão Polinomial](./m9.md)
+
+- Módulo 10 - [Classificação Árvore de Decisão](./m10.md)
+
+- Módulo 11 - [Classificação Naive Bayes](./m11.md)
+
+- Módulo 12 - [Regresão Logística](./m12.md)
+
+- Módulo 13 - [Tópicos Complementares](./m13.md)
 
 ## O que é Análise de Regressão?
 

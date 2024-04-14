@@ -24,6 +24,10 @@
     - [Módulo 7 - Regressão Linear Simples](#módulo-7---regressão-linear-simples)
     - [Módulo 8 - Regressão Linear Múltipla](#módulo-8---regressão-linear-múltipla)
     - [Módulo 9 - Regressão Polinomial](#módulo-9---regressão-polinomial)
+    - [Módulo 10 - Classificação Árvore de Decisão](#módulo-10---classificação-árvore-de-decisão)
+    - [Módulo 11 - Classificação de Naive Bayes](#módulo-11---classificação-de-naive-bayes)
+    - [Módulo 12 - Regressão Logística](#módulo-12---regressão-logística)
+    - [Módulo 13 - Tópicos Complememtares](#módulo-13---tópicos-complememtares)
   - [Tecnologias](#tecnologias)
     - [Linguagem de Programação](#linguagem-de-programação)
     - [Gerenciadores de Ambiente Virtual](#gerenciadores-de-ambiente-virtual)
@@ -33,7 +37,7 @@
 
 ## Sobre o Projeto
 
-Repositório que reuni os módulos 7, 8 e 9 da trilha Desenvolvimento IA 2023, desenvolvido pela Rocketseat Education.
+Repositório que reuni os módulos 7, 8, 9, 10, 11, 12 e 13 da trilha Desenvolvimento IA 2023-2024, desenvolvido pela Rocketseat Education.
 
 > Acessar [**anotações de aulas**](/.github/docs/notes.md)
 
@@ -59,6 +63,22 @@ Este módulo é o segundo de uma série para estudo dos algoritmos supervisionad
 ### Módulo 9 - Regressão Polinomial
 
 Este módulo é o terceiro de uma série para estudo dos algoritmos supervisionados, com foco especial na Regressão Polinomial. O objetivo deste módulo é apresentar o conceito de **polinómios** e **regresão polinomial**, onde também iremos desenvolver um modelo através de processo completo desde o EDA até a entrega do modelo por App com acesso para os usuários finais. Também trabalharemos o conceito de **validação cruzada**, além de definir o melhor modelo através do monitoramento do sobreajuste (*overfitting*).
+
+### Módulo 10 - Classificação Árvore de Decisão
+
+Será abordado os fundamentos essenciais de algoritmos de classificação, com foco em árvore de decisão. Da Análise Exploratória de Dados à entrega do modelo, capacite-se em técnicas de *machine learning* para previsões. Aplique os conceitos em projeto prático com inferência *batch*.
+
+### Módulo 11 - Classificação de Naive Bayes
+
+Neste módulo, foi explorado o algoritmo de classificação Naive Bayes, que é baseado no Teorema de Bayes. Vamos aprender sobre a importância de Bayes na estatística e como seu trabalho foi publicado por Richard Price. Vamos realizar um projeto prático, onde faremos análise exploratória automatizada e utilizaremos hiperparâmetros. Além disso, aprendemos a automatizar a seleção de *features*, para identificar as mais relevantes para nosso modelo. Isso é importante para termos um modelo eficiente e não sobrecarregado com variáveis desnecessárias.
+
+### Módulo 12 - Regressão Logística
+
+Este módulo tem como propósito fornece uma compreensão abrangente do algoritmo de Regressão Logística, uma técnica essencial em problemas de classificação binária e multiclasse. Além de discutir os fundamentos teóricos, aplicou-se o algoritmo em cenários reais, desde a exploração e análise dos dados (EDA) até a otimização dos hiper parâmetros do modelo.
+
+### Módulo 13 - Tópicos Complememtares
+
+Neste módulo, exploramos técnicas que podem ser incorporadas nos algoritmos supervisionados para torná-los mais robustos. Essas técnicas têm várias finalidades, como mitigar o *overfitting*, aprimorar a seleção de *features*, identificar relações entre variáveis e obter uma interpretação mais profunda dos modelos. Com essas técnicas, será possivel melhorar significativamente o desempenho e a eficácia dos modelos, além de obter *insights* valiosos dos dados analisados.
 
 ## Tecnologias
 
@@ -120,5 +140,5 @@ Distribuído sob a licença *MIT*. Veja [LICENSE](LICENSE) para mais informaçõ
 ---
 
 <h5 align="center">
-  2023 - <a href="https://github.com/mgckaled/">Marcel Kaled</a>
+  2023-2024 - <a href="https://github.com/mgckaled/">Marcel Kaled</a>
 </h5>
