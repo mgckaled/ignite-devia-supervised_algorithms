@@ -52,7 +52,7 @@ $ cd api
 $ uvicorn api_model_lr_simple:app --reload
 ```
 
-Acesso ao servidor: `http://127.0.0.1:8000/docs`
+**Acesso ao servidor uvicorn: `http://127.0.0.1:8000/docs` (localhost)**
 
 ### Módulo 8 - Regressão Linear Múltipla
 
@@ -71,14 +71,18 @@ $ cd api
 $ uvicorn api_model_salary:app --reload
 ```
 
+seguido de:
+
 ```shell
-# rodar front-end streamlit 
+# rodar front-end streamlit com o modelo de predição de salário
 $ cd apps
 
-$ uvicorn api_model_salary:app --reload
+$ streamlit run app_streamlit_salary.py
 ```
 
-Acesso ao servidor: `http://127.0.0.1:8000/docs`
+**Acesso ao servidor uvicorn: `http://127.0.0.1:8000/docs` (localhost)**
+
+**Acesso ao front-end streamlit: `http://127.0.0.1:8501/` (localhost)**
 
 ### Módulo 10 - Classificação Árvore de Decisão
 
