@@ -37,7 +37,7 @@
 
 ## Sobre o Projeto
 
-Repositório que reuni os módulos 7, 8, 9, 10, 11, 12 e 13 da trilha Desenvolvimento IA 2023-2024, desenvolvido pela Rocketseat Education.
+Repositório que reuni os módulos 7 ao 13 da trilha Desenvolvimento IA 2023-2024, desenvolvido pela Rocketseat Education.
 
 > Acessar [**anotações de aulas**](/.github/docs/notes.md)
 
@@ -63,6 +63,22 @@ Este módulo é o segundo de uma série para estudo dos algoritmos supervisionad
 ### Módulo 9 - Regressão Polinomial
 
 Este módulo é o terceiro de uma série para estudo dos algoritmos supervisionados, com foco especial na Regressão Polinomial. O objetivo deste módulo é apresentar o conceito de **polinómios** e **regresão polinomial**, onde também iremos desenvolver um modelo através de processo completo desde o EDA até a entrega do modelo por App com acesso para os usuários finais. Também trabalharemos o conceito de **validação cruzada**, além de definir o melhor modelo através do monitoramento do sobreajuste (*overfitting*).
+
+```shell
+# rodar servidor com api do modelo de predição - regressão linear simples
+$ cd api
+
+$ uvicorn api_model_salary:app --reload
+```
+
+```shell
+# rodar front-end streamlit 
+$ cd apps
+
+$ uvicorn api_model_salary:app --reload
+```
+
+Acesso ao servidor: `http://127.0.0.1:8000/docs`
 
 ### Módulo 10 - Classificação Árvore de Decisão
 
