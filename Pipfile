@@ -23,6 +23,10 @@ numpy = "*"
 gradio = "*"
 streamlit = "*"
 requests = "*"
+plotly = "*"
+nbformat = "*"
+optuna = "*"
+ipywidgets = "*"
 
 [dev-packages]
 pylint = "*"
