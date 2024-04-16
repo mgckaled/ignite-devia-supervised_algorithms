@@ -65,7 +65,7 @@ Este módulo é o segundo de uma série para estudo dos algoritmos supervisionad
 Este módulo é o terceiro de uma série para estudo dos algoritmos supervisionados, com foco especial na Regressão Polinomial. O objetivo deste módulo é apresentar o conceito de **polinómios** e **regresão polinomial**, onde também iremos desenvolver um modelo através de processo completo desde o EDA até a entrega do modelo por App com acesso para os usuários finais. Também trabalharemos o conceito de **validação cruzada**, além de definir o melhor modelo através do monitoramento do sobreajuste (*overfitting*).
 
 ```shell
-# rodar servidor com api do modelo de predição - regressão linear simples
+# rodar servidor com api do modelo de predição - regressão polinomial
 $ cd api
 
 $ uvicorn api_model_salary:app --reload
@@ -86,7 +86,7 @@ $ streamlit run app_streamlit_salary.py
 
 ### Módulo 10 - Classificação Árvore de Decisão
 
-Será abordado os fundamentos essenciais de algoritmos de classificação, com foco em árvore de decisão. Da Análise Exploratória de Dados à entrega do modelo, capacite-se em técnicas de *machine learning* para previsões. Aplique os conceitos em projeto prático com inferência *batch*.
+O objetivo deste módulo foi apresentar conceitualmente os principais algoritmos de classificação para desenvolver projetos de *machine learning* que fazem **previsões de categorias de classes**. Também foi feito um projeto explorando o primeiro destes algoritmos, que é o **árvore de decisão**, onde o processo completado, desde o EDA até a entrega do modelo, através de uma aplicação de inferência de *batch*.
 
 ### Módulo 11 - Classificação de Naive Bayes
 
@@ -150,6 +150,17 @@ Neste módulo, exploramos técnicas que podem ser incorporadas nos algoritmos su
 
     ```shell
     $ pipenv install
+    ```
+
+    ou, para versões instalar as versões específicas:
+
+    ```shell
+    $ pipenv install -r requirements.txt
+    ```
+
+5. Ative o ambiente virtual no seu terminal
+
+    ```shell
     $ pipenv shell
     ```
 
