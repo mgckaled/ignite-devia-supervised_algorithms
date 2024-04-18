@@ -88,6 +88,18 @@ $ streamlit run app_streamlit_salary.py
 
 O objetivo deste módulo foi apresentar conceitualmente os principais algoritmos de classificação para desenvolver projetos de *machine learning* que fazem **previsões de categorias de classes**. Também foi feito um projeto explorando o primeiro destes algoritmos, que é o **árvore de decisão**, onde o processo completado, desde o EDA até a entrega do modelo, através de uma aplicação de inferência de *batch*.
 
+**Porta de acesso ao app no servidor Gradio: `http://127.0.0.1:7860` (localhost)**
+
+**Parar servidor:**
+
+```python
+def stop_gradio():
+    demo.close()
+    print("Servidor Gradio foi interrompido.")
+
+stop_gradio()
+```
+
 ### Módulo 11 - Classificação de Naive Bayes
 
 Neste módulo, foi explorado o algoritmo de classificação Naive Bayes, que é baseado no Teorema de Bayes. Vamos aprender sobre a importância de Bayes na estatística e como seu trabalho foi publicado por Richard Price. Vamos realizar um projeto prático, onde faremos análise exploratória automatizada e utilizaremos hiperparâmetros. Além disso, aprendemos a automatizar a seleção de *features*, para identificar as mais relevantes para nosso modelo. Isso é importante para termos um modelo eficiente e não sobrecarregado com variáveis desnecessárias.
