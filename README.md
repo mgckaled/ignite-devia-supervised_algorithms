@@ -139,8 +139,17 @@ Neste módulo, exploramos técnicas que podem ser incorporadas nos algoritmos su
 - [`gradio`](https://www.gradio.app/)
 - [`streamlit`](https://streamlit.io/)
 - [`requests`](https://requests.readthedocs.io/en/latest/)
-- [`pylint`](https://pylint.pycqa.org/en/latest/index.html)
-- [`nbqa`](https://pylint.pycqa.org/en/latest/index.html)
+- [`pylint`](https://pylint.pycqa.org/en/latest/index.html) - `dev`
+- [`nbqa`](https://pylint.pycqa.org/en/latest/index.html) - `dev`
+- [`ipykernel`](https://pypi.org/project/ipykernel/)
+- [`plotly`](https://plotly.com/python/)
+- [`nbformat`](https://pypi.org/project/nbformat/)
+- [`optuna`](https://optuna.org/)
+- [`ipywidgets`](https://pypi.org/project/ipywidgets/)
+- [`sweetviz`](https://pypi.org/project/sweetviz/)
+- [`flask`](https://flask.palletsprojects.com/en/3.0.x/)
+- [`flask-pydantic`](https://pypi.org/project/Flask-Pydantic/)
+- [`pyarrow`](https://arrow.apache.org/docs/python/index.html)
 
 ## Como clonar o projeto?
 
