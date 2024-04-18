@@ -152,7 +152,7 @@ Neste módulo, exploramos técnicas que podem ser incorporadas nos algoritmos su
     $ pipenv install
     ```
 
-    ou, para versões instalar as versões específicas:
+    ou, utilize as dependências exatas do arquivo `requirements.txt`:
 
     ```shell
     $ pipenv install -r requirements.txt
