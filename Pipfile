@@ -27,6 +27,10 @@ plotly = "*"
 nbformat = "*"
 optuna = "*"
 ipywidgets = "*"
+sweetviz = "*"
+flask = "*"
+flask-pydantic = "*"
+pyarrow = "*"
 
 [dev-packages]
 pylint = "*"
