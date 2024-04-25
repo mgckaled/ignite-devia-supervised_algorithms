@@ -104,9 +104,51 @@ stop_gradio()
 
 Neste módulo, foi explorado o algoritmo de classificação Naive Bayes, que é baseado no Teorema de Bayes. Vamos aprender sobre a importância de Bayes na estatística e como seu trabalho foi publicado por Richard Price. Vamos realizar um projeto prático, onde faremos análise exploratória automatizada e utilizaremos hiperparâmetros. Além disso, aprendemos a automatizar a seleção de *features*, para identificar as mais relevantes para nosso modelo. Isso é importante para termos um modelo eficiente e não sobrecarregado com variáveis desnecessárias.
 
+**Acesso a API do modelo via instância servidor Flask:** execute no terminal os comandos `cd api` e `python api_model_obesity.py`. Em seguida, utilize o molde json abaixo (`requests/request_example.json`) no *body* da requisição POST via REST API de sua preferência:
+
+```json
+{
+  "Genero_Masculino": 1,
+  "Idade": 48,
+  "Historico_Familiar_Sobrepeso": 1,
+  "Consumo_Alta_Caloria_Com_Frequencia": 1,
+  "Consumo_Vegetais_Com_Frequencia": 0,
+  "Refeicoes_Dia": 2,
+  "Consumo_Alimentos_entre_Refeicoes": 0,
+  "Fumante": 0,
+  "Consumo_Agua": 2,
+  "Monitora_Calorias_Ingeridas": 0,
+  "Nivel_Atividade_Fisica": 0,
+  "Nivel_Uso_Tela": 2,
+  "Consumo_Alcool": 1,
+  "Transporte_Automovel": 1,
+  "Transporte_Bicicleta": 0,
+  "Transporte_Motocicleta": 0,
+  "Transporte_Publico": 0,
+  "Transporte_Caminhada": 0
+}
+```
+
 ### Módulo 12 - Regressão Logística
 
 Este módulo tem como propósito fornece uma compreensão abrangente do algoritmo de Regressão Logística, uma técnica essencial em problemas de classificação binária e multiclasse. Além de discutir os fundamentos teóricos, aplicou-se o algoritmo em cenários reais, desde a exploração e análise dos dados (EDA) até a otimização dos hiper parâmetros do modelo.
+
+**Acesso ao servidor Uvicorn:** dentro da pasta `/apps/m12` execute o comando `uvicorn main:app --host 0.0.0.0 --port 80 --reload`
+
+**Requisição API REST Client:** envie uma requisição POST no URL `http://localhost:80/classify` com o molde json abaixo:
+
+```json
+{
+    "A_id": 4,
+    "Size": 1.36421682,
+    "Weight": -1.296611877,
+    "Sweetness": -0.384658206,
+    "Crunchiness": -0.55300577,
+    "Juiciness": 3.030874354,
+    "Ripeness": -1.303849429,
+    "Acidity": 0.501984036
+}
+```
 
 ### Módulo 13 - Tópicos Complememtares
 
