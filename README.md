@@ -152,7 +152,7 @@ Este módulo tem como propósito fornece uma compreensão abrangente do algoritm
 
 ### Módulo 13 - Tópicos Complememtares
 
-Neste módulo, exploramos técnicas que podem ser incorporadas nos algoritmos supervisionados para torná-los mais robustos. Essas técnicas têm várias finalidades, como mitigar o *overfitting*, aprimorar a seleção de *features*, identificar relações entre variáveis e obter uma interpretação mais profunda dos modelos. Com essas técnicas, será possivel melhorar significativamente o desempenho e a eficácia dos modelos, além de obter *insights* valiosos dos dados analisados.
+Neste módulo, vamos explorar técnicas que podem ser incorporadas nos algoritmos supervisionados para torná-los mais robustos. Essas técnicas têm várias finalidades, como mitigar o overfitting, aprimorar a seleção de features, identificar relações entre variáveis e obter uma interpretação mais profunda dos modelos. Com essas técnicas, vocês poderão melhorar significativamente o desempenho e a eficácia dos seus modelos, além de obter insights valiosos dos dados analisados.
 
 ## Tecnologias
 
@@ -200,32 +200,33 @@ Neste módulo, exploramos técnicas que podem ser incorporadas nos algoritmos su
 2. Faça o clone pelo Github:
 
     ```shell
-    $ git clone https://github.com/mgckaled/ignite-devia-supervised_algorithms.git
+    git clone https://github.com/mgckaled/ignite-devia-supervised_algorithms.git
     ```
 
 3. Acesse o diretório:
 
     ```shell
-    $ cd ignite-devia-supervised_algorithms
+    cd ignite-devia-supervised_algorithms
     ```
 
-4. Instale as dependências e ative o ambiente virtual
+4. Ative o ambiente virtual pelo terminal
 
     ```shell
-    $ pipenv install
+    pipenv shell
     ```
 
-    ou, utilize as dependências exatas do arquivo `requirements.txt`:
+5. Instale as dependências. (Certifique-se de estar utilzando a versão exata do python - 3.11.3)
 
     ```shell
-    $ pipenv install -r requirements.txt
+    pipenv install
     ```
 
-5. Ative o ambiente virtual no seu terminal
+    ou, como um recurso de degurança, instale dependências exatas do `requirements.txt`:
 
     ```shell
-    $ pipenv shell
+    pipenv install -r requirements.txt
     ```
+
 
 ## Licença
 
