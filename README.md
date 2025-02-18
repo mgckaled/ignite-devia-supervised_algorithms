@@ -45,6 +45,10 @@ Repositório que reuni os módulos 7 ao 13 da trilha Desenvolvimento IA 2023-202
 
 Este módulo é o primeiro de uma série para estudo dos algoritmos supervisionados, com foco especial na Regressão Linear Simples. Neste segmento do curso, nosso principal objetivo é fornecer uma compreensão aprofundada dos fundamentos dos algoritmos de regressão, essenciais para a construção de projetos eficazes de machine learning voltados para a previsão de valores. Como ponto de partida, mergulharemos no universo da Regressão Linear Simples. Através de um projeto prático, abordaremos cada etapa do processo, desde a Análise Exploratória de Dados (EDA) até a implementação final do modelo em uma API, facilitando sua integração e utilização em diversas aplicações. Este módulo é projetado para guiá-los através dos conceitos e práticas essenciais, preparando-os para aplicar essas habilidades em cenários reais de machine learning.
 
+> [Instruções](https://docs-rocketseat.notion.site/Desafio-Regress-o-Linear-170395da577080e1a52ad82257f367aa) do desafio
+>
+> [Resolução](./notebooks/challenges/productivity_irrigation.ipynb) do desafio
+
 ```shell
 # rodar servidor com api do modelo de predição - regressão linear simples
 $ cd api
@@ -226,7 +230,6 @@ Neste módulo, vamos explorar técnicas que podem ser incorporadas nos algoritmo
     ```shell
     pipenv install -r requirements.txt
     ```
-
 
 ## Licença
 
