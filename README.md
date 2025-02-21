@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD014 -->
 
-# Ignite Trilha Desenvovimento de IA - Algoritmos Supervisionados
+# Formação Desenvovimento de IA - Algoritmos Supervisionados
 
 <div align="center">
    <img alt="logo trilha" src=".github/assets/trilha-rs.png" width="30%"/>
@@ -18,7 +18,7 @@
 
 ## Sumário
 
-- [Ignite Trilha Desenvovimento de IA - Algoritmos Supervisionados](#ignite-trilha-desenvovimento-de-ia---algoritmos-supervisionados)
+- [Formação Desenvovimento de IA - Algoritmos Supervisionados](#formação-desenvovimento-de-ia---algoritmos-supervisionados)
   - [Sumário](#sumário)
   - [Sobre o Projeto](#sobre-o-projeto)
     - [Módulo 7 - Regressão Linear Simples](#módulo-7---regressão-linear-simples)
@@ -62,7 +62,11 @@ $ uvicorn api_model_lr_simple:app --reload
 
 Este módulo é o segundo de uma série para estudo dos algoritmos supervisionados, com foco especial na Regressão Linear Múltipla. O obejetivo deste é apresentar o conceito de **regressão linear múltipla**, onde também iremos desenvolver um modelo através de um processo completo desde o EDA até a entrega do modelo através de uma UI para uso do usuário final. Será desenvolvido um modelo para um laboratório de análises clínicas que realiza testes de colesterol. O objetivo é avaliar se características dos pacientes, como idade, nível de atividade física e peso, podem influenciar nos resultados do exame de colesterol total. Vamos utilizar um algoritmo de regressão linear múltipla para prever o resultado do exame com base nessas características. O processo será semelhante ao que fizemos no módulo anterior de regressão linear simples, incluindo carregar os dados, realizar uma análise exploratória, preparar o dataset, treinar o modelo, validar o modelo e salvar para uso futuro.
 
-> Para rodar a interface do modelo de previsão numa porta do localhost, execute todas células no notebook `app_gradio_colesterol.ipynb`. Para fechar a porta, execute `demo.close()`.
+> [Instruções](https://docs-rocketseat.notion.site/Desafio-Regress-o-Linear-M-ltipla-170395da577080858fe6d9f0b869c3c6) do desafio
+>
+> [Resolução](./notebooks/challenges/rent_model.ipynb) do desafio
+
+Para rodar a interface do modelo de previsão numa porta do localhost, execute todas células no notebook `app_gradio_colesterol.ipynb`. Para fechar a porta, execute `demo.close()`.
 
 ### Módulo 9 - Regressão Polinomial
 
