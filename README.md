@@ -72,6 +72,10 @@ Para rodar a interface do modelo de previsão numa porta do localhost, execute t
 
 Este módulo é o terceiro de uma série para estudo dos algoritmos supervisionados, com foco especial na Regressão Polinomial. O objetivo deste módulo é apresentar o conceito de **polinómios** e **regresão polinomial**, onde também iremos desenvolver um modelo através de processo completo desde o EDA até a entrega do modelo por App com acesso para os usuários finais. Também trabalharemos o conceito de **validação cruzada**, além de definir o melhor modelo através do monitoramento do sobreajuste (*overfitting*).
 
+> [Instruções](https://docs-rocketseat.notion.site/Desafio-Regress-o-Polinominal-170395da577080d4b1c6d63d8af028b1) do desafio
+>
+> [Resolução](./notebooks/challenges/sales.ipynb) do desafio
+
 ```shell
 # rodar servidor com api do modelo de predição - regressão polinomial
 $ cd api
